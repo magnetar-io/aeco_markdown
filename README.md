@@ -235,3 +235,107 @@ And even a narrative about why this content should be used.  Maybe even a link t
   ]
 }
 ```
+
+### Specifications
+```html
+// Category:Room:Names
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Concrete Floors Specification</title>
+    <style>
+        .section-title {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .subsection {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Concrete Floors Specification</h1>
+
+    <div class="section">
+        <div class="section-title">Part 1: General</div>
+        <div class="subsection">
+            <h2>1.1 Summary</h2>
+            <ul>
+                <li>This section includes specifications for cast-in-place concrete floors.</li>
+                <li>Related Sections:
+                    <ul>
+                        <li>Section 03300 - Cast-in-Place Concrete.</li>
+                        <li>Section 03200 - Concrete Reinforcement.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>1.2 Submittals</h2>
+            <ul>
+                <li>Submit mix designs for each type of concrete floor.</li>
+                <li>Submit product data for curing compounds, sealers, and other materials.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Part 2: Products</div>
+        <div class="subsection">
+            <h2>2.1 Materials</h2>
+            <ul>
+                <li>Cement: Portland cement conforming to ASTM C150, Type <span class="choice">I</span>/<span class="choice">II</span>.</li>
+                <li>Aggregates: Coarse and fine aggregates conforming to ASTM C33.</li>
+                <li>Water: Clean, potable, and free from deleterious materials.</li>
+            </ul>
+
+            <h2>2.2 Admixtures</h2>
+            <ul>
+                <li>Air-entraining admixture: Conforming to ASTM C260.</li>
+                <li>Water-reducing admixture: Conforming to ASTM C494, Type <span class="choice">A</span>.</li>
+            </ul>
+
+            <h2>2.3 Finishes</h2>
+            <ul>
+                <li>Trowel finish for indoor floors.</li>
+                <li>Broom finish for outdoor or slip-resistant surfaces.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Part 3: Execution</div>
+        <div class="subsection">
+            <h2>3.1 Preparation</h2>
+            <ul>
+                <li>Prepare subgrade according to Section 02200 - Earthwork.</li>
+                <li>Install vapor barriers and insulation as specified.</li>
+            </ul>
+
+            <h2>3.2 Placement</h2>
+            <ul>
+                <li>Mix and place concrete according to ASTM C94 and ACI 301.</li>
+                <li>Consolidate concrete with mechanical vibrators to eliminate voids.</li>
+            </ul>
+
+            <h2>3.3 Finishing</h2>
+            <ul>
+                <li>Finish surfaces to the specified texture and flatness.</li>
+                <li>Cure concrete according to ASTM C curing compounds.</li>
+            </ul>
+
+            <h2>3.4 Protection</h2>
+            <ul>
+                <li>Protect freshly placed concrete from premature drying and excessive cold or heat.</li>
+                <li>Restrict traffic on new floors for at least 7 days.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
