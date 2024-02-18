@@ -60,40 +60,34 @@ Nothing real yet, but AECO markdown would be an Extention on existing Markdown t
           "properties": {
             "name": "Living Room"
           },
-          "coordinates": [[[0, 0], [0, 5], [5, 5], [5, 0], [0, 0]]]
+          "coordinates": [[[-122.4194, 37.7749], [-122.4193, 37.7749], [-122.4193, 37.7750], [-122.4194, 37.7750], [-122.4194, 37.7749]]]
         },
         {
           "type": "Polygon",
           "properties": {
             "name": "Kitchen"
           },
-          "coordinates": [[[5, 0], [5, 3], [8, 3], [8, 0], [5, 0]]]
+          "coordinates": [[[-122.4193, 37.7749], [-122.4192, 37.7749], [-122.4192, 37.7750], [-122.4193, 37.7750], [-122.4193, 37.7749]]]
         },
         {
           "type": "Polygon",
           "properties": {
             "name": "Bedroom"
           },
-          "coordinates": [[[0, 5], [0, 8], [5, 8], [5, 5], [0, 5]]]
+          "coordinates": [[[-122.4194, 37.7750], [-122.4193, 37.7750], [-122.4193, 37.7751], [-122.4194, 37.7751], [-122.4194, 37.7750]]]
         },
         {
           "type": "Polygon",
           "properties": {
             "name": "Bathroom"
           },
-          "coordinates": [[[5, 5], [5, 8], [8, 8], [8, 5], [5, 5]]]
+          "coordinates": [[[-122.4193, 37.7750], [-122.4192, 37.7750], [-122.4192, 37.7751], [-122.4193, 37.7751], [-122.4193, 37.7750]]]
         }
       ]
     }
   }
 }
-
 ```
-
-
-
-
-
 
 ### Project Details to Extract when setting up web services
 
