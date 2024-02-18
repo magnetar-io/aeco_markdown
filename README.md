@@ -6,7 +6,6 @@ Nothing real yet, but AECO markdown would be an Extention on existing Markdown t
 ### Project Location Capture in GeoJson  (View me in Github)
 
 ```geojson
-// ProjectLocation
 {
   "type": "FeatureCollection",
   "features": [
