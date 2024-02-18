@@ -49,64 +49,63 @@ Nothing real yet, but AECO markdown would be an Extention on existing Markdown t
 ### Program Rooms
 
 ```stl
-solid house
+solid box1
   facet normal 0 0 1
     outer loop
       vertex 0 0 0
-      vertex 5 0 0
-      vertex 0 5 0
+      vertex 1 0 0
+      vertex 0 1 0
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 5 0 0
-      vertex 5 5 0
-      vertex 0 5 0
+      vertex 1 0 0
+      vertex 1 1 0
+      vertex 0 1 0
+    endloop
+  endfacet
+  // Additional facets for sides and top
+endsolid box1
+
+solid box2
+  facet normal 0 0 1
+    outer loop
+      vertex 2 0 0
+      vertex 3 0 0
+      vertex 2 2 0
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 5 0 0
-      vertex 8 0 0
-      vertex 5 3 0
+      vertex 3 0 0
+      vertex 3 2 0
+      vertex 2 2 0
+    endloop
+  endfacet
+  // Additional facets for sides and top
+endsolid box2
+
+// Continue with similar structure for remaining boxes, adjusting the vertex coordinates
+// to increase the gap and vary the size for each box
+
+solid box10
+  facet normal 0 0 1
+    outer loop
+      vertex 20 0 0
+      vertex 22 0 0
+      vertex 20 3 0
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 8 0 0
-      vertex 8 3 0
-      vertex 5 3 0
+      vertex 22 0 0
+      vertex 22 3 0
+      vertex 20 3 0
     endloop
   endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 0 5 0
-      vertex 5 5 0
-      vertex 0 8 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 5 5 0
-      vertex 5 8 0
-      vertex 0 8 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 5 5 0
-      vertex 8 5 0
-      vertex 5 8 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 8 5 0
-      vertex 8 8 0
-      vertex 5 8 0
-    endloop
-  endfacet
-endsolid house
+  // Additional facets for sides and top
+endsolid box10
+
 
 ```
 
