@@ -1,6 +1,8 @@
 # AECO Markdown
 Nothing real yet, but AECO markdown would be an Extention on existing Markdown to hold AECO specific datasets and allow them to live next to documentation, instructions etc.
 
+## It would be pared with and editor that made maintaining and using it simple. 
+
 ## Example Usage
 
 ### Project Location Capture in GeoJson  (View me in Github)
