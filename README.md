@@ -48,11 +48,11 @@ Nothing real yet, but AECO markdown would be an Extention on existing Markdown t
 ```
 ### Program Rooms
 
-```topojson
+```geojson
 {
   "type": "Topology",
   "objects": {
-    "rooms": {
+    "houseRooms": {
       "type": "GeometryCollection",
       "geometries": [
         {
@@ -60,33 +60,50 @@ Nothing real yet, but AECO markdown would be an Extention on existing Markdown t
           "properties": {
             "name": "Living Room"
           },
-          "coordinates": [[[-122.4194, 37.7749], [-122.4193, 37.7749], [-122.4193, 37.7750], [-122.4194, 37.7750], [-122.4194, 37.7749]]]
+          "coordinates": [
+            [
+              [-122.4194, 37.7749], [-122.4193, 37.7749], [-122.4193, 37.7750], [-122.4194, 37.7750], [-122.4194, 37.7749]
+            ]
+          ]
         },
         {
           "type": "Polygon",
           "properties": {
             "name": "Kitchen"
           },
-          "coordinates": [[[-122.4193, 37.7749], [-122.4192, 37.7749], [-122.4192, 37.7750], [-122.4193, 37.7750], [-122.4193, 37.7749]]]
+          "coordinates": [
+            [
+              [-122.4193, 37.7749], [-122.4192, 37.7749], [-122.4192, 37.7750], [-122.4193, 37.7750], [-122.4193, 37.7749]
+            ]
+          ]
         },
         {
           "type": "Polygon",
           "properties": {
             "name": "Bedroom"
           },
-          "coordinates": [[[-122.4194, 37.7750], [-122.4193, 37.7750], [-122.4193, 37.7751], [-122.4194, 37.7751], [-122.4194, 37.7750]]]
+          "coordinates": [
+            [
+              [-122.4194, 37.7750], [-122.4193, 37.7750], [-122.4193, 37.7751], [-122.4194, 37.7751], [-122.4194, 37.7750]
+            ]
+          ]
         },
         {
           "type": "Polygon",
           "properties": {
             "name": "Bathroom"
           },
-          "coordinates": [[[-122.4193, 37.7750], [-122.4192, 37.7750], [-122.4192, 37.7751], [-122.4193, 37.7751], [-122.4193, 37.7750]]]
+          "coordinates": [
+            [
+              [-122.4193, 37.7750], [-122.4192, 37.7750], [-122.4192, 37.7751], [-122.4193, 37.7751], [-122.4193, 37.7750]
+            ]
+          ]
         }
       ]
     }
   }
 }
+
 ```
 
 ### Project Details to Extract when setting up web services
