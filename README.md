@@ -171,7 +171,7 @@ And even a narrative about why this content should be used.  Maybe even a link t
 ```json
 // Category:Room:Names
 {
-  "hospitalRooms": [
+  "Rooms:Hospitals:General": [
     {
       "name": "Patient Room",
       "description": "A private or semi-private room for patient care and recovery."
