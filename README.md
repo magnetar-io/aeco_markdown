@@ -64,49 +64,149 @@ solid box1
       vertex 0 1 0
     endloop
   endfacet
-  // Additional facets for sides and top
 endsolid box1
 
 solid box2
   facet normal 0 0 1
     outer loop
       vertex 2 0 0
-      vertex 3 0 0
+      vertex 4 0 0
       vertex 2 2 0
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 3 0 0
-      vertex 3 2 0
+      vertex 4 0 0
+      vertex 4 2 0
       vertex 2 2 0
     endloop
   endfacet
-  // Additional facets for sides and top
 endsolid box2
 
-// Continue with similar structure for remaining boxes, adjusting the vertex coordinates
-// to increase the gap and vary the size for each box
+solid box3
+  facet normal 0 0 1
+    outer loop
+      vertex 5 0 0
+      vertex 7 0 0
+      vertex 5 3 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 7 0 0
+      vertex 7 3 0
+      vertex 5 3 0
+    endloop
+  endfacet
+endsolid box3
+
+solid box4
+  facet normal 0 0 1
+    outer loop
+      vertex 9 0 0
+      vertex 12 0 0
+      vertex 9 2 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 12 0 0
+      vertex 12 2 0
+      vertex 9 2 0
+    endloop
+  endfacet
+endsolid box4
+
+solid box5
+  facet normal 0 0 1
+    outer loop
+      vertex 14 0 0
+      vertex 16 0 0
+      vertex 14 4 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 16 0 0
+      vertex 16 4 0
+      vertex 14 4 0
+    endloop
+  endfacet
+endsolid box5
+
+solid box6
+  facet normal 0 0 1
+    outer loop
+      vertex 18 0 0
+      vertex 21 0 0
+      vertex 18 3 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 21 0 0
+      vertex 21 3 0
+      vertex 18 3 0
+    endloop
+  endfacet
+endsolid box6
+
+solid box7
+  facet normal 0 0 1
+    outer loop
+      vertex 23 0 0
+      vertex 25 0 0
+      vertex 23 2 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 25 0 0
+      vertex 25 2 0
+      vertex 23 2 0
+    endloop
+  endfacet
+endsolid box7
+
+solid box8
+  facet normal 0 0 1
+    outer loop
+      vertex 27 0 0
+      vertex 30 0 0
+      vertex 27 1 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 30 0 0
+      vertex 30 1 0
+      vertex 27 1 0
+    endloop
+  endfacet
+endsolid box8
+
+solid box9
+  facet normal 0 0 1
+    outer loop
+      vertex 32 0 0
+      vertex 34 0 0
+      vertex 32 3 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 34 0 0
+      vertex 34 3 0
+      vertex 32 3 0
+    endloop
+  endfacet
+endsolid box9
 
 solid box10
   facet normal 0 0 1
     outer loop
-      vertex 20 0 0
-      vertex 22 0 0
-      vertex 20 3 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 22 0 0
-      vertex 22 3 0
-      vertex 20 3 0
-    endloop
-  endfacet
-  // Additional facets for sides and top
-endsolid box10
-
-
+      vertex 36 0 0
+      vertex 39 0
 ```
 
 ### Project Details to Extract when setting up web services
