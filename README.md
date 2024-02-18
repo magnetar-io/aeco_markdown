@@ -48,61 +48,65 @@ Nothing real yet, but AECO markdown would be an Extention on existing Markdown t
 ```
 ### Program Rooms
 
-```geojson
-{
-  "type": "Topology",
-  "objects": {
-    "houseRooms": {
-      "type": "GeometryCollection",
-      "geometries": [
-        {
-          "type": "Polygon",
-          "properties": {
-            "name": "Living Room"
-          },
-          "coordinates": [
-            [
-              [-122.4194, 37.7749], [-122.4193, 37.7749], [-122.4193, 37.7750], [-122.4194, 37.7750], [-122.4194, 37.7749]
-            ]
-          ]
-        },
-        {
-          "type": "Polygon",
-          "properties": {
-            "name": "Kitchen"
-          },
-          "coordinates": [
-            [
-              [-122.4193, 37.7749], [-122.4192, 37.7749], [-122.4192, 37.7750], [-122.4193, 37.7750], [-122.4193, 37.7749]
-            ]
-          ]
-        },
-        {
-          "type": "Polygon",
-          "properties": {
-            "name": "Bedroom"
-          },
-          "coordinates": [
-            [
-              [-122.4194, 37.7750], [-122.4193, 37.7750], [-122.4193, 37.7751], [-122.4194, 37.7751], [-122.4194, 37.7750]
-            ]
-          ]
-        },
-        {
-          "type": "Polygon",
-          "properties": {
-            "name": "Bathroom"
-          },
-          "coordinates": [
-            [
-              [-122.4193, 37.7750], [-122.4192, 37.7750], [-122.4192, 37.7751], [-122.4193, 37.7751], [-122.4193, 37.7750]
-            ]
-          ]
-        }
-      ]
-    }
-  }
-}
+```stl
+solid house
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 5 0 0
+      vertex 0 5 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 5 0 0
+      vertex 5 5 0
+      vertex 0 5 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 5 0 0
+      vertex 8 0 0
+      vertex 5 3 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 8 0 0
+      vertex 8 3 0
+      vertex 5 3 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0 5 0
+      vertex 5 5 0
+      vertex 0 8 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 5 5 0
+      vertex 5 8 0
+      vertex 0 8 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 5 5 0
+      vertex 8 5 0
+      vertex 5 8 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 8 5 0
+      vertex 8 8 0
+      vertex 5 8 0
+    endloop
+  endfacet
+endsolid house
 
 ```
 
