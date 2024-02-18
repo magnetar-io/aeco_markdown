@@ -43,8 +43,3 @@ Nothing real yet, but AECO markdown would be an Extention on existing Markdown t
   ]
 }
 ```
-
-
-
-
-'''
