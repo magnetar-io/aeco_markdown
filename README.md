@@ -240,7 +240,7 @@ And even a narrative about why this content should be used.  Maybe even a link t
 ```html
 // Category:Room:Names
 
-```
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -336,6 +336,6 @@ And even a narrative about why this content should be used.  Maybe even a link t
 </body>
 </html>
 
-
+```
 
 
