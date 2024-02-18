@@ -337,5 +337,8 @@ And even a narrative about why this content should be used.  Maybe even a link t
 </html>
 
 ```
+### Embed Analysis 
+
+![exmaple Analysis Image] (https://github.com/magnetar-io/aeco_markdown/blob/main/Framework.png)
 
 
