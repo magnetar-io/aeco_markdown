@@ -270,6 +270,7 @@ And even a narrative about why this content should be used.  Maybe even a link t
 ```
 
 ### Revit Workset Rules
+The are the standard workset rules... they can be coustom... here i youtube...
 ```json
 // Revit_Workset_Rules
 {
